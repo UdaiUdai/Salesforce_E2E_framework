@@ -1,0 +1,4 @@
+Successfully loaded the URL: https://orgfarm-b512cce2da-dev-ed.develop.lightning.force.com/lightning/page/home
+Storage state saved to: ./logins/salesforceLogin.json
+App Launcher is visible as expected.
+App Launcher is visible as expected.

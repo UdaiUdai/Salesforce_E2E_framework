@@ -1,0 +1,5 @@
+Successfully loaded the URL: https://orgfarm-b512cce2da-dev-ed.develop.lightning.force.com/lightning/page/home
+Already logged in - using existing session
+App Launcher is visible as expected.
+dropdown is visible as expected.
+expected element is disabled

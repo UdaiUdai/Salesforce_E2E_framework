@@ -1,0 +1,654 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Navigation
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Skip to Main Content
+        - generic [ref=e6]:
+          - button [ref=e12]:
+            - img [ref=e14]
+            - text: Search...
+          - navigation [ref=e17]:
+            - list [ref=e19]:
+              - listitem [ref=e20]:
+                - group [ref=e21]:
+                  - button [ref=e23] [cursor=pointer]:
+                    - img [ref=e28]
+                  - button [ref=e32] [cursor=pointer]:
+                    - img [ref=e37]
+              - listitem [ref=e40]:
+                - button [ref=e46] [cursor=pointer]:
+                  - img [ref=e51]
+              - listitem [ref=e54]:
+                - button [ref=e56] [cursor=pointer]:
+                  - img [ref=e61]
+              - listitem [ref=e64]:
+                - button [ref=e67] [cursor=pointer]:
+                  - img [ref=e72]
+              - listitem [ref=e75]:
+                - button [ref=e81] [cursor=pointer]:
+                  - img [ref=e86]
+              - listitem [ref=e89]:
+                - button [ref=e92] [cursor=pointer]:
+                  - img [ref=e98]
+              - listitem [ref=e102]:
+                - button [ref=e105] [cursor=pointer]
+      - generic [ref=e110]:
+        - generic [ref=e113]:
+          - generic [ref=e115]:
+            - navigation [ref=e116]:
+              - button [ref=e118] [cursor=pointer]:
+                - generic [ref=e129]: App Launcher
+            - heading [level=1] [ref=e130]:
+              - generic [ref=e131]: Salesforce Chatter
+          - navigation [ref=e134]:
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - link [ref=e137] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e138]: Home
+              - listitem [ref=e139]:
+                - link [ref=e140] [cursor=pointer]:
+                  - /url: /lightning/page/chatter
+                  - generic [ref=e141]: Chatter
+              - listitem [ref=e142]:
+                - link [ref=e143] [cursor=pointer]:
+                  - /url: /lightning/o/User/home
+                  - generic [ref=e144]: People
+                - button [ref=e148] [cursor=pointer]:
+                  - img [ref=e152]
+                  - generic [ref=e155]: People List
+              - listitem [ref=e156]:
+                - link [ref=e157] [cursor=pointer]:
+                  - /url: /lightning/o/CollaborationGroup/home
+                  - generic [ref=e158]: Groups
+                - button [ref=e162] [cursor=pointer]:
+                  - img [ref=e166]
+                  - generic [ref=e169]: Groups List
+              - listitem [ref=e170]:
+                - link [ref=e171] [cursor=pointer]:
+                  - /url: /lightning/o/ContentDocument/home
+                  - generic [ref=e172]: Files
+                - button [ref=e176] [cursor=pointer]:
+                  - img [ref=e180]
+                  - generic [ref=e183]: Files List
+              - listitem [ref=e184] [cursor=pointer]:
+                - link [ref=e185]:
+                  - /url: /lightning/o/Case/home
+                  - generic [ref=e186]: "*"
+                  - generic [ref=e187]: Cases
+                - button [ref=e191]:
+                  - img [ref=e195]
+                  - generic [ref=e198]: Cases List
+                - button [ref=e199]:
+                  - img [ref=e203]
+                  - generic [ref=e206]: Close tab
+              - listitem [ref=e207]:
+                - button [ref=e211] [cursor=pointer]:
+                  - img [ref=e213]
+                  - generic [ref=e216]: Help
+        - main [ref=e218]:
+          - generic [ref=e228]:
+            - generic [ref=e230]:
+              - generic [ref=e231]:
+                - generic [ref=e233]:
+                  - img [ref=e237]
+                  - generic [ref=e238]:
+                    - heading [level=1] [ref=e242]: Cases
+                    - generic [ref=e243]:
+                      - generic [ref=e245] [cursor=pointer]:
+                        - heading [level=1] [ref=e246]:
+                          - generic [ref=e247]: Cases
+                          - generic [ref=e248]: Recently Viewed
+                        - button [ref=e251]:
+                          - img [ref=e253]
+                          - generic [ref=e256]: "Select a List View: Cases"
+                      - button [disabled] [ref=e260] [cursor=pointer]:
+                        - img [ref=e262]
+                        - generic [ref=e265]: This list is pinned.
+                - list [ref=e268]:
+                  - listitem [ref=e269]:
+                    - button [ref=e270] [cursor=pointer]:
+                      - generic [ref=e271]: New
+                  - listitem [ref=e272]:
+                    - button [ref=e273] [cursor=pointer]:
+                      - generic [ref=e274]: Change Owner
+                  - listitem [ref=e275]:
+                    - button [ref=e276] [cursor=pointer]:
+                      - generic [ref=e277]: Assign Label
+              - generic [ref=e278]:
+                - paragraph [ref=e280]:
+                  - generic [ref=e282]:
+                    - status [ref=e283]: 6 items •
+                    - text: Updated a few seconds ago
+                - generic [ref=e289]:
+                  - generic [ref=e290]: Search this list...
+                  - generic [ref=e291]:
+                    - searchbox [ref=e292]
+                    - img
+                - generic [ref=e293]:
+                  - button [ref=e297] [cursor=pointer]:
+                    - img [ref=e299]
+                    - img [ref=e303]
+                    - generic [ref=e306]: List View Controls
+                  - button [ref=e309] [cursor=pointer]:
+                    - img [ref=e311]
+                    - img [ref=e315]
+                    - generic [ref=e318]: Select list display
+                  - generic [ref=e320]:
+                    - button [ref=e323] [cursor=pointer]:
+                      - img [ref=e325]
+                      - generic [ref=e328]: Refresh
+                    - button [ref=e331] [cursor=pointer]:
+                      - img [ref=e333]
+                      - generic [ref=e336]: Column sort
+                    - button [ref=e339] [cursor=pointer]:
+                      - img [ref=e341]
+                      - generic [ref=e344]: Edit List
+                    - group [ref=e345]:
+                      - generic [ref=e347]:
+                        - generic:
+                          - generic:
+                            - button [disabled]:
+                              - generic:
+                                - img
+                              - generic: Charts
+                        - generic:
+                          - generic:
+                            - button [disabled]:
+                              - generic:
+                                - img
+                              - generic: Filters
+            - generic [ref=e354]:
+              - generic [ref=e355]: Navigation Mode
+              - grid [ref=e359]:
+                - generic [ref=e363]:
+                  - generic [ref=e364]: Choose a Row
+                  - generic [ref=e366]:
+                    - checkbox [ref=e367]
+                    - generic [ref=e370]: Select All
+                - generic [ref=e372]:
+                  - button [ref=e373] [cursor=pointer]:
+                    - generic [ref=e374]: "Sort by:"
+                    - generic [ref=e375]: Case Number
+                  - generic [ref=e376]: "Sorted: None"
+                  - button [ref=e378] [cursor=pointer]:
+                    - img [ref=e380]
+                    - generic [ref=e383]: Show Case Number column actions
+                  - slider [ref=e384]: "188"
+                - generic [ref=e388]:
+                  - button [ref=e389] [cursor=pointer]:
+                    - generic [ref=e390]: "Sort by:"
+                    - generic [ref=e391]: Subject
+                  - generic [ref=e392]: "Sorted: None"
+                  - button [ref=e394] [cursor=pointer]:
+                    - img [ref=e396]
+                    - generic [ref=e399]: Show Subject column actions
+                  - slider [ref=e400]: "373"
+                - generic [ref=e404]:
+                  - button [ref=e405] [cursor=pointer]:
+                    - generic [ref=e406]: "Sort by:"
+                    - generic [ref=e407]: Status
+                  - generic [ref=e408]: "Sorted: None"
+                  - button [ref=e410] [cursor=pointer]:
+                    - img [ref=e412]
+                    - generic [ref=e415]: Show Status column actions
+                  - slider [ref=e416]: "211"
+                - generic [ref=e420]:
+                  - button [ref=e421] [cursor=pointer]:
+                    - generic [ref=e422]: "Sort by:"
+                    - generic [ref=e423]: Date/Time Opened
+                  - generic [ref=e424]: "Sorted: None"
+                  - button [ref=e426] [cursor=pointer]:
+                    - img [ref=e428]
+                    - generic [ref=e431]: Show Date/Time Opened column actions
+                  - slider [ref=e432]: "320"
+                - generic [ref=e436]:
+                  - button [ref=e437] [cursor=pointer]:
+                    - generic [ref=e438]: "Sort by:"
+                    - generic [ref=e439]: Case Owner Alias
+                  - generic [ref=e440]: "Sorted: None"
+                  - button [ref=e442] [cursor=pointer]:
+                    - img [ref=e444]
+                    - generic [ref=e447]: Show Case Owner Alias column actions
+                  - slider [ref=e448]: "116"
+                - rowgroup [ref=e454]:
+                  - row [ref=e455]:
+                    - gridcell [ref=e456]
+                    - gridcell [ref=e460]:
+                      - generic [ref=e461]:
+                        - checkbox [ref=e462]
+                        - generic [ref=e465]: Select Item 1
+                    - rowheader [ref=e466]:
+                      - generic [ref=e467]:
+                        - link [ref=e473] [cursor=pointer]:
+                          - /url: /lightning/r/500gL00000VC9GzQAL/view
+                          - generic [ref=e474]: "00001031"
+                        - img [ref=e475]
+                    - gridcell [ref=e478]:
+                      - generic [ref=e479]:
+                        - generic [ref=e488]:
+                          - link [ref=e489] [cursor=pointer]:
+                            - /url: /lightning/r/500gL00000VC9GzQAL/view
+                            - generic [ref=e493]: bob
+                          - button [ref=e495] [cursor=pointer]:
+                            - img [ref=e497]
+                            - generic [ref=e500]: Open bob Preview
+                        - button [ref=e501] [cursor=pointer]:
+                          - img [ref=e502]
+                    - gridcell [ref=e505]:
+                      - generic [ref=e506]:
+                        - generic [ref=e509]: New
+                        - button [ref=e510] [cursor=pointer]:
+                          - img [ref=e511]
+                    - gridcell [ref=e514]:
+                      - generic [ref=e515]:
+                        - generic [ref=e518]: 12/8/2025, 11:40 PM
+                        - img [ref=e519]
+                    - gridcell [ref=e522]:
+                      - generic [ref=e523]:
+                        - link [ref=e528] [cursor=pointer]:
+                          - /url: /lightning/r/005gL000008V4nVQAS/view
+                          - generic [ref=e529]: uda
+                        - img [ref=e530]
+                    - gridcell [ref=e533]:
+                      - button [ref=e539] [cursor=pointer]:
+                        - img [ref=e541]
+                        - generic [ref=e544]: Show Actions
+                  - row [ref=e545]:
+                    - gridcell [ref=e546]
+                    - gridcell [ref=e550]:
+                      - generic [ref=e551]:
+                        - checkbox [ref=e552]
+                        - generic [ref=e555]: Select Item 2
+                    - rowheader [ref=e556]:
+                      - generic [ref=e557]:
+                        - link [ref=e563] [cursor=pointer]:
+                          - /url: /lightning/r/500gL00000VC8ZRQA1/view
+                          - generic [ref=e564]: "00001029"
+                        - img [ref=e565]
+                    - gridcell [ref=e568]:
+                      - generic [ref=e569]:
+                        - generic [ref=e578]:
+                          - link [ref=e579] [cursor=pointer]:
+                            - /url: /lightning/r/500gL00000VC8ZRQA1/view
+                            - generic [ref=e583]: backbone
+                          - button [ref=e585] [cursor=pointer]:
+                            - img [ref=e587]
+                            - generic [ref=e590]: Open backbone Preview
+                        - button [ref=e591] [cursor=pointer]:
+                          - img [ref=e592]
+                    - gridcell [ref=e595]:
+                      - generic [ref=e596]:
+                        - generic [ref=e599]: New
+                        - button [ref=e600] [cursor=pointer]:
+                          - img [ref=e601]
+                    - gridcell [ref=e604]:
+                      - generic [ref=e605]:
+                        - generic [ref=e608]: 12/8/2025, 11:35 PM
+                        - img [ref=e609]
+                    - gridcell [ref=e612]:
+                      - generic [ref=e613]:
+                        - link [ref=e618] [cursor=pointer]:
+                          - /url: /lightning/r/005gL000008V4nVQAS/view
+                          - generic [ref=e619]: uda
+                        - img [ref=e620]
+                    - gridcell [ref=e623]:
+                      - button [ref=e629] [cursor=pointer]:
+                        - img [ref=e631]
+                        - generic [ref=e634]: Show Actions
+                  - row [ref=e635]:
+                    - gridcell [ref=e636]
+                    - gridcell [ref=e640]:
+                      - generic [ref=e641]:
+                        - checkbox [ref=e642]
+                        - generic [ref=e645]: Select Item 3
+                    - rowheader [ref=e646]:
+                      - generic [ref=e647]:
+                        - link [ref=e653] [cursor=pointer]:
+                          - /url: /lightning/r/500gL00000VC8j7QAD/view
+                          - generic [ref=e654]: "00001030"
+                        - img [ref=e655]
+                    - gridcell [ref=e658]:
+                      - button [ref=e660] [cursor=pointer]:
+                        - img [ref=e661]
+                    - gridcell [ref=e664]:
+                      - generic [ref=e665]:
+                        - generic [ref=e668]: New
+                        - button [ref=e669] [cursor=pointer]:
+                          - img [ref=e670]
+                    - gridcell [ref=e673]:
+                      - generic [ref=e674]:
+                        - generic [ref=e677]: 12/8/2025, 11:36 PM
+                        - img [ref=e678]
+                    - gridcell [ref=e681]:
+                      - generic [ref=e682]:
+                        - link [ref=e687] [cursor=pointer]:
+                          - /url: /lightning/r/005gL000008V4nVQAS/view
+                          - generic [ref=e688]: uda
+                        - img [ref=e689]
+                    - gridcell [ref=e692]:
+                      - button [ref=e698] [cursor=pointer]:
+                        - img [ref=e700]
+                        - generic [ref=e703]: Show Actions
+                  - row [ref=e704]:
+                    - gridcell [ref=e705]
+                    - gridcell [ref=e709]:
+                      - generic [ref=e710]:
+                        - checkbox [ref=e711]
+                        - generic [ref=e714]: Select Item 4
+                    - rowheader [ref=e715]:
+                      - generic [ref=e716]:
+                        - link [ref=e722] [cursor=pointer]:
+                          - /url: /lightning/r/500gL00000V8vs5QAB/view
+                          - generic [ref=e723]: "00001028"
+                        - img [ref=e724]
+                    - gridcell [ref=e727]:
+                      - button [ref=e729] [cursor=pointer]:
+                        - img [ref=e730]
+                    - gridcell [ref=e733]:
+                      - generic [ref=e734]:
+                        - generic [ref=e737]: New
+                        - button [ref=e738] [cursor=pointer]:
+                          - img [ref=e739]
+                    - gridcell [ref=e742]:
+                      - generic [ref=e743]:
+                        - generic [ref=e746]: 12/8/2025, 9:02 PM
+                        - img [ref=e747]
+                    - gridcell [ref=e750]:
+                      - generic [ref=e751]:
+                        - link [ref=e756] [cursor=pointer]:
+                          - /url: /lightning/r/005gL000008V4nVQAS/view
+                          - generic [ref=e757]: uda
+                        - img [ref=e758]
+                    - gridcell [ref=e761]:
+                      - button [ref=e767] [cursor=pointer]:
+                        - img [ref=e769]
+                        - generic [ref=e772]: Show Actions
+                  - row [ref=e773]:
+                    - gridcell [ref=e774]
+                    - gridcell [ref=e778]:
+                      - generic [ref=e779]:
+                        - checkbox [ref=e780]
+                        - generic [ref=e783]: Select Item 5
+                    - rowheader [ref=e784]:
+                      - generic [ref=e785]:
+                        - link [ref=e791] [cursor=pointer]:
+                          - /url: /lightning/r/500gL00000LMncTQAT/view
+                          - generic [ref=e792]: "00001027"
+                        - img [ref=e793]
+                    - gridcell [ref=e796]:
+                      - generic [ref=e797]:
+                        - generic [ref=e806]:
+                          - link [ref=e807] [cursor=pointer]:
+                            - /url: /lightning/r/500gL00000LMncTQAT/view
+                            - generic [ref=e811]: product return request
+                          - button [ref=e813] [cursor=pointer]:
+                            - img [ref=e815]
+                            - generic [ref=e818]: Open product return request Preview
+                        - button [ref=e819] [cursor=pointer]:
+                          - img [ref=e820]
+                    - gridcell [ref=e823]:
+                      - generic [ref=e824]:
+                        - generic [ref=e827]: Escalated
+                        - button [ref=e828] [cursor=pointer]:
+                          - img [ref=e829]
+                    - gridcell [ref=e832]:
+                      - generic [ref=e833]:
+                        - generic [ref=e836]: 10/2/2025, 10:46 PM
+                        - img [ref=e837]
+                    - gridcell [ref=e840]:
+                      - generic [ref=e841]:
+                        - link [ref=e846] [cursor=pointer]:
+                          - /url: /lightning/r/005gL000008V4nVQAS/view
+                          - generic [ref=e847]: uda
+                        - img [ref=e848]
+                    - gridcell [ref=e851]:
+                      - button [ref=e857] [cursor=pointer]:
+                        - img [ref=e859]
+                        - generic [ref=e862]: Show Actions
+                  - row [ref=e863]:
+                    - gridcell [ref=e864]
+                    - gridcell [ref=e868]:
+                      - generic [ref=e869]:
+                        - checkbox [ref=e870]
+                        - generic [ref=e873]: Select Item 6
+                    - rowheader [ref=e874]:
+                      - generic [ref=e875]:
+                        - link [ref=e881] [cursor=pointer]:
+                          - /url: /lightning/r/500gL00000LM3EUQA1/view
+                          - generic [ref=e882]: "00001026"
+                        - img [ref=e883]
+                    - gridcell [ref=e886]:
+                      - generic [ref=e887]:
+                        - generic [ref=e896]:
+                          - link [ref=e897] [cursor=pointer]:
+                            - /url: /lightning/r/500gL00000LM3EUQA1/view
+                            - generic [ref=e901]: product return request
+                          - button [ref=e903] [cursor=pointer]:
+                            - img [ref=e905]
+                            - generic [ref=e908]: Open product return request Preview
+                        - button [ref=e909] [cursor=pointer]:
+                          - img [ref=e910]
+                    - gridcell [ref=e913]:
+                      - generic [ref=e914]:
+                        - generic [ref=e917]: Escalated
+                        - button [ref=e918] [cursor=pointer]:
+                          - img [ref=e919]
+                    - gridcell [ref=e922]:
+                      - generic [ref=e923]:
+                        - generic [ref=e926]: 10/2/2025, 9:47 PM
+                        - img [ref=e927]
+                    - gridcell [ref=e930]:
+                      - generic [ref=e931]:
+                        - link [ref=e936] [cursor=pointer]:
+                          - /url: /lightning/r/005gL000008V4nVQAS/view
+                          - generic [ref=e937]: uda
+                        - img [ref=e938]
+                    - gridcell [ref=e941]:
+                      - button [ref=e947] [cursor=pointer]:
+                        - img [ref=e949]
+                        - generic [ref=e952]: Show Actions
+    - generic [ref=e956]:
+      - dialog [ref=e958]:
+        - generic [ref=e959]:
+          - button [ref=e960] [cursor=pointer]:
+            - img [ref=e962]
+            - generic [ref=e965]: Cancel and close
+          - generic [ref=e973]:
+            - heading [level=2] [ref=e975]: New Case
+            - generic [ref=e977]:
+              - generic [ref=e978]: "* = Required Information"
+              - generic [ref=e980]:
+                - generic [ref=e985]:
+                  - generic [ref=e987]:
+                    - heading [level=3] [ref=e988]:
+                      - generic [ref=e989]: Case Information
+                    - list [ref=e991]:
+                      - generic [ref=e992]:
+                        - generic [ref=e994]:
+                          - listitem [ref=e996]:
+                            - generic [ref=e997]:
+                              - generic [ref=e998]: Case Owner
+                              - generic [ref=e1010]: Udaya prasath
+                          - listitem [ref=e1012]:
+                            - generic [ref=e1020]:
+                              - generic [ref=e1022]: "*Status"
+                              - generic [ref=e1026]:
+                                - combobox [ref=e1027] [cursor=pointer]:
+                                  - generic [ref=e1028]: New
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                        - generic [ref=e1030]:
+                          - listitem [ref=e1032]:
+                            - generic [ref=e1034]: Case Number
+                          - listitem [ref=e1037]:
+                            - generic [ref=e1044]:
+                              - generic [ref=e1046]: Priority
+                              - generic [ref=e1050]:
+                                - combobox [ref=e1051] [cursor=pointer]:
+                                  - generic [ref=e1052]: Medium
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                        - generic [ref=e1054]:
+                          - listitem [ref=e1056]:
+                            - generic [ref=e1062]:
+                              - generic [ref=e1063]: Contact Name
+                              - generic [ref=e1068]:
+                                - combobox [ref=e1071]
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                          - listitem [ref=e1073]:
+                            - generic [ref=e1080]:
+                              - generic [ref=e1082]: "*Case Origin"
+                              - generic [ref=e1086]:
+                                - combobox [ref=e1087] [cursor=pointer]:
+                                  - generic [ref=e1088]: "--None--"
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                        - listitem [ref=e1092]:
+                          - generic [ref=e1098]:
+                            - generic [ref=e1099]: Account Name
+                            - generic [ref=e1104]:
+                              - combobox [ref=e1107]
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - img
+                        - listitem [ref=e1112]:
+                          - generic [ref=e1119]:
+                            - generic [ref=e1121]: Type
+                            - generic [ref=e1125]:
+                              - combobox [ref=e1126] [cursor=pointer]:
+                                - generic [ref=e1127]: "--None--"
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - img
+                        - listitem [ref=e1132]:
+                          - generic [ref=e1139]:
+                            - generic [ref=e1141]: Case Reason
+                            - generic [ref=e1145]:
+                              - combobox [ref=e1146] [cursor=pointer]:
+                                - generic [ref=e1147]: "--None--"
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - img
+                  - generic [ref=e1150]:
+                    - heading [level=3] [ref=e1151]:
+                      - generic [ref=e1152]: Web Information
+                    - list [ref=e1154]:
+                      - generic [ref=e1155]:
+                        - generic [ref=e1157]:
+                          - listitem [ref=e1159]:
+                            - generic [ref=e1164]:
+                              - generic [ref=e1165]: Web Email
+                              - textbox [ref=e1167]
+                          - listitem [ref=e1169]:
+                            - generic [ref=e1175]:
+                              - generic [ref=e1176]: Web Company
+                              - textbox [ref=e1178]
+                        - generic [ref=e1180]:
+                          - listitem [ref=e1182]:
+                            - generic [ref=e1188]:
+                              - generic [ref=e1189]: Web Name
+                              - textbox [ref=e1191]
+                          - listitem [ref=e1193]:
+                            - generic [ref=e1199]:
+                              - generic [ref=e1200]: Web Phone
+                              - textbox [ref=e1202]
+                  - generic [ref=e1204]:
+                    - heading [level=3] [ref=e1205]:
+                      - generic [ref=e1206]: Additional Information
+                    - list [ref=e1208]:
+                      - generic [ref=e1209]:
+                        - generic [ref=e1211]:
+                          - listitem [ref=e1213]:
+                            - generic [ref=e1220]:
+                              - generic [ref=e1222]: Product
+                              - generic [ref=e1226]:
+                                - combobox [ref=e1227] [cursor=pointer]:
+                                  - generic [ref=e1228]: "--None--"
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                          - listitem [ref=e1230]:
+                            - generic [ref=e1236]:
+                              - generic [ref=e1237]: Engineering Req Number
+                              - textbox [ref=e1239]
+                        - generic [ref=e1241]:
+                          - listitem [ref=e1243]:
+                            - generic [ref=e1250]:
+                              - generic [ref=e1252]: Potential Liability
+                              - generic [ref=e1256]:
+                                - combobox [ref=e1257] [cursor=pointer]:
+                                  - generic [ref=e1258]: "--None--"
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                          - listitem [ref=e1260]:
+                            - generic [ref=e1267]:
+                              - generic [ref=e1269]: SLA Violation
+                              - generic [ref=e1273]:
+                                - combobox [ref=e1274] [cursor=pointer]:
+                                  - generic [ref=e1275]: "--None--"
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                  - generic [ref=e1277]:
+                    - heading [level=3] [ref=e1278]:
+                      - generic [ref=e1279]: Description Information
+                    - list [ref=e1281]:
+                      - generic [ref=e1282]:
+                        - listitem [ref=e1286]:
+                          - generic [ref=e1292]:
+                            - generic [ref=e1293]: Subject
+                            - textbox [ref=e1295]
+                        - listitem [ref=e1299]:
+                          - generic [ref=e1303]:
+                            - generic [ref=e1304]: Description
+                            - textbox [ref=e1306]
+                        - listitem [ref=e1310]:
+                          - generic [ref=e1314]:
+                            - generic [ref=e1315]: Internal Comments
+                            - textbox [ref=e1317]
+                - generic [ref=e1319]:
+                  - list [ref=e1322]:
+                    - listitem [ref=e1323]:
+                      - generic [ref=e1327]:
+                        - checkbox [ref=e1328]
+                        - generic [ref=e1329]: Send notification email to contact
+                  - generic [ref=e1333]:
+                    - button [ref=e1339] [cursor=pointer]: Cancel
+                    - button [ref=e1345] [cursor=pointer]: Save & New
+                    - button [ref=e1351] [cursor=pointer]: Save
+          - status [ref=e1352]
+      - dialog [ref=e1354]:
+        - generic [ref=e1355]:
+          - button "Cancel and close" [active] [ref=e1356] [cursor=pointer]:
+            - generic [ref=e1357]:
+              - img
+            - generic [ref=e1358]: Cancel and close
+          - status [ref=e1415]
+  - generic:
+    - status
+```

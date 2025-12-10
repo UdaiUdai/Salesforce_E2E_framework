@@ -38,6 +38,7 @@ export class SalesforceCasePage extends PlaywrightWrapper {
     }
 
     public async selectSalutation(value: string) {
+        await this.validateElementVisibility(selectors.cases.salutationDD,"dropdown")
         await this.click(selectors.cases.salutationDD, "Salutation", "Dropdown");
         await this.click(selectors.cases.dropdownValueSelector(value), value, "Option");
     }

@@ -31,12 +31,12 @@ export default defineConfig({
     /* Base URL to use in actions like `await page.goto('/')`. */
     //baseURL: 'https://login.salesforce.com',
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
-    headless:false,
+    trace: 'on',
+    headless: !!process.env.CI,
     /* Screenshot on failure */
     screenshot: 'only-on-failure',
     /* Video on failure */
-    video: 'retain-on-failure',
+    video: 'on',
     /* Viewport settings */
     //viewport: { width: 1920, height: 1080 },
   },
