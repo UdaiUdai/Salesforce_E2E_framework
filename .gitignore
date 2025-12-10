@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build and dist
+dist/
+build/
+*.tsbuildinfo
+
+# Test results and reports
+test-results/
+playwright-report/
+coverage/
+*.lcov
+
+# Browser cache
+.playwright/
+.playwright-mcp/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Sensitive data
+logins/salesforceLogin.json
+credentials/
+secrets/
+
+# Build artifacts
+dist/
+out/
+
+# IDE cache
+.eslintcache
+tslint.json
+
+# Video recordings (optional - uncomment if not needed)
+# test-results/**/*.webm
+
+# Screenshots (optional - uncomment if not needed)
+# test-results/**/*.png
