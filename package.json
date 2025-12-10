@@ -4,7 +4,19 @@
   "description": "Salesforce automation using playwright",
   "main": "index.js",
   "scripts": {
-   
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:tc001": "playwright test tests/TC001_create_case.spec.ts",
+    "test:tc002": "playwright test tests/TC002_create_individuals.spec.ts",
+    "test:tc003": "playwright test tests/TC003_edit_individuals.spec.ts",
+    "test:all": "playwright test tests/",
+    "allure:generate": "allure generate allure-results -o allure-report --clean",
+    "allure:open": "allure open allure-report",
+    "allure:report": "npm run allure:generate && npm run allure:open",
+    "allure:clean": "rm -rf allure-results allure-report"
   },
   "keywords": [],
   "author": "Udayaprasath",
