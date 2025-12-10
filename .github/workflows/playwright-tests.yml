@@ -16,7 +16,7 @@ jobs:
     
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [lts/*]
         browser: [chromium, firefox, webkit]
 
     steps:
@@ -86,8 +86,8 @@ jobs:
           echo "## Test Execution Summary" >> $GITHUB_STEP_SUMMARY
           echo "- **Framework**: Playwright" >> $GITHUB_STEP_SUMMARY
           echo "- **Browser Matrix**: Chromium, Firefox, WebKit" >> $GITHUB_STEP_SUMMARY
-          echo "- **Node Versions**: 18.x, 20.x" >> $GITHUB_STEP_SUMMARY
-          echo "- **Total Jobs**: 6 (2 Node × 3 Browsers)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Node Version**: LTS (Latest Long-Term Support)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total Jobs**: 3 (1 Node LTS × 3 Browsers)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "## 📊 Artifacts Generated" >> $GITHUB_STEP_SUMMARY
           echo "- ✅ Playwright HTML Reports" >> $GITHUB_STEP_SUMMARY
