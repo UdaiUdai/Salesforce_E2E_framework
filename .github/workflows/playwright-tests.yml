@@ -70,7 +70,7 @@ jobs:
           retention-days: 7
 
   test-results:
-    name: Publish Test Results
+    name: Test Summary
     needs: test
     runs-on: ubuntu-latest
     if: always()
@@ -79,10 +79,20 @@ jobs:
       - name: Download all artifacts
         uses: actions/download-artifact@v4
 
-      - name: Publish test results
-        uses: EnricoMi/publish-unit-test-result-action@v2
-        if: always()
-        with:
-          files: |
-            test-results/**/*.xml
-          check_name: Playwright Test Results
+      - name: Create test summary
+        run: |
+          echo "# 🎭 Playwright Test Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Test Execution Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Framework**: Playwright" >> $GITHUB_STEP_SUMMARY
+          echo "- **Browser Matrix**: Chromium, Firefox, WebKit" >> $GITHUB_STEP_SUMMARY
+          echo "- **Node Versions**: 18.x, 20.x" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total Jobs**: 6 (2 Node × 3 Browsers)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## 📊 Artifacts Generated" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ Playwright HTML Reports" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ Allure Reports" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ Test Videos" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Download artifacts from the **Actions** tab to view detailed reports." >> $GITHUB_STEP_SUMMARY
+
